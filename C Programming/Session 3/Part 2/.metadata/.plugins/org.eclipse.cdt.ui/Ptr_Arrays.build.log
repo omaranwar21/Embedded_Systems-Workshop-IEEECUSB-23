@@ -1,1 +1,11 @@
-Info: Nothing to build for Ptr_Arrays
+20:09:25 **** Rebuild of configuration Debug for project Ptr_Arrays ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ptr_Arrays.o "..\\Ptr_Arrays.c" 
+..\Ptr_Arrays.c: In function 'main':
+..\Ptr_Arrays.c:34:11: warning: initialization of 'int *' from incompatible pointer type 'int (*)[5]' [-Wincompatible-pointer-types]
+   34 |  int *z = &array;
+      |           ^
+gcc -o Ptr_Arrays.exe Ptr_Arrays.o 
+
+20:09:26 Build Finished. 0 errors, 1 warnings. (took 445ms)
+

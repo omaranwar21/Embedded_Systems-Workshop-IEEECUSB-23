@@ -1,4 +1,4 @@
-20:26:34 **** Rebuild of configuration Debug for project Ptr_Definition ****
+20:09:36 **** Rebuild of configuration Debug for project Ptr_Definition ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ptr_Definition.o "..\\Ptr_Definition.c" 
 ..\Ptr_Definition.c: In function 'main':
@@ -7,5 +7,5 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ptr_Definition.o "..\\Ptr_Definition.
       |  ^~~~~~~~~~~~~~~~~~~~~~~~~~
 gcc -o Ptr_Definition.exe Ptr_Definition.o 
 
-20:26:35 Build Finished. 0 errors, 1 warnings. (took 531ms)
+20:09:36 Build Finished. 0 errors, 1 warnings. (took 495ms)
 

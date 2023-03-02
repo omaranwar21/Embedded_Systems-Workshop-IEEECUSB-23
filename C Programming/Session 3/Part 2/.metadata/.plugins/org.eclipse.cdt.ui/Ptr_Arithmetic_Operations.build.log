@@ -1,7 +1,7 @@
-20:26:33 **** Rebuild of configuration Debug for project Ptr_Arithmetic_Operations ****
+20:09:18 **** Rebuild of configuration Debug for project Ptr_Arithmetic_Operations ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ptr_Arithmetic_Operations.o "..\\Ptr_Arithmetic_Operations.c" 
 gcc -o Ptr_Arithmetic_Operations.exe Ptr_Arithmetic_Operations.o 
 
-20:26:33 Build Finished. 0 errors, 0 warnings. (took 754ms)
+20:09:18 Build Finished. 0 errors, 0 warnings. (took 489ms)
 
