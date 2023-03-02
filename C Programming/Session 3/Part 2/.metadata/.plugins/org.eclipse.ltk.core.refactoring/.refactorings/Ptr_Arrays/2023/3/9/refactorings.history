@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Ptr_Arrays/Arrays.c&apos; to &apos;Ptr_Arrays.c&apos;" description="Rename resource &apos;Arrays.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Arrays.c" name="Ptr_Arrays.c" stamp="1677780505050" updateReferences="true"/>
+</session>

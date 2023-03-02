@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Arrays_String_Functions/Abram_EX1.c&apos; to &apos;Arrays_String_Functions.c&apos;" description="Rename resource &apos;Abram_EX1.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Abram_EX1.c" name="Arrays_String_Functions.c" stamp="1677780359296" updateReferences="true"/>
+</session>

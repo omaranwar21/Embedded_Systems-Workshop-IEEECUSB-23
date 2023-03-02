@@ -1,0 +1,11 @@
+20:06:17 **** Incremental Build of configuration Debug for project Arrays ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Arrays.o "..\\Arrays.c" 
+..\Arrays.c: In function 'main':
+..\Arrays.c:34:11: warning: initialization of 'int *' from incompatible pointer type 'int (*)[5]' [-Wincompatible-pointer-types]
+   34 |  int *z = &array;
+      |           ^
+gcc -o Arrays.exe Arrays.o 
+
+20:06:18 Build Finished. 0 errors, 1 warnings. (took 617ms)
+

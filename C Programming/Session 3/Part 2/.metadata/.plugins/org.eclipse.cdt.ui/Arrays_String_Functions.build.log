@@ -1,0 +1,24 @@
+20:26:32 **** Rebuild of configuration Debug for project Arrays_String_Functions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Arrays_String_Functions.o "..\\Arrays_String_Functions.c" 
+..\Arrays_String_Functions.c: In function 'main':
+..\Arrays_String_Functions.c:21:30: warning: array subscript has type 'char' [-Wchar-subscripts]
+   21 |         scanf("%d", &user_arr[i]);
+      |                              ^
+..\Arrays_String_Functions.c:21:17: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'char *' [-Wformat=]
+   21 |         scanf("%d", &user_arr[i]);
+      |                ~^   ~~~~~~~~~~~~
+      |                 |   |
+      |                 |   char *
+      |                 int *
+      |                %c
+..\Arrays_String_Functions.c:25:19: warning: array subscript has type 'char' [-Wchar-subscripts]
+   25 |         if (my_arr[i] != user_arr[i])
+      |                   ^
+..\Arrays_String_Functions.c:25:34: warning: array subscript has type 'char' [-Wchar-subscripts]
+   25 |         if (my_arr[i] != user_arr[i])
+      |                                  ^
+gcc -o Arrays_String_Functions.exe Arrays_String_Functions.o 
+
+20:26:32 Build Finished. 0 errors, 4 warnings. (took 619ms)
+

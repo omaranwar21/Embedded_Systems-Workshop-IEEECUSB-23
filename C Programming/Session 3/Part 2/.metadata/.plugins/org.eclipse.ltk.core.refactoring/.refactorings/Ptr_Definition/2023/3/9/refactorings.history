@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Ptr_Definition/Definition.c&apos; to &apos;Ptr_Definition.c&apos;" description="Rename resource &apos;Definition.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Definition.c" name="Ptr_Definition.c" stamp="1677780475620" updateReferences="true"/>
+</session>
