@@ -1,0 +1,36 @@
+/*************************************************************************************************************
+ * Subject: Pointers - Part (2)
+ * Session: Pointers - Part (2), Structures, Unions, and enumerations
+ * Date: 25/02/2023
+ *************************************************************************************************************/
+#include <stdio.h>
+
+int main(void)
+{
+	/* Non-Const Pointer to Const Data */
+/*
+	int x = 10, y = 15;
+	const int *ptr;
+	ptr = &x;
+	ptr = &y;
+	y = 20;
+	*ptr = 5; // error
+*/
+
+	/* Const pointer to non-const data */
+/*
+	int x = 10, y = 15;
+	int * const ptr = &x;   // Initialization is very important during definition
+	*ptr = 5; // x = 5
+	ptr = &y; // error
+*/
+
+    /* Const pointer to const data */
+	int x = 10, y = 15;
+	const int * const ptr = &x;
+	x = 3;
+//	* ptr = 5; // error
+//	ptr = &y; // error
+
+	return 0;
+}

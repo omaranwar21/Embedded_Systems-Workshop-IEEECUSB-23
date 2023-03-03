@@ -1,0 +1,10 @@
+LaunchTargetManager/configs/Struct.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Pointers_Part2.exe,org.eclipse.launchbar.core.descriptorType.default\:IEEE_Pointers_Part2_Ex3.exe,org.eclipse.launchbar.core.descriptorType.default\:IEEE_Pointers_Part2_Ex5.exe,org.eclipse.launchbar.core.descriptorType.default\:SimpleCalculator.exe,org.eclipse.launchbar.core.descriptorType.default\:Struct.exe,org.eclipse.launchbar.core.descriptorType.default\:Unions.exe,org.eclipse.launchbar.core.descriptorType.default\:Enums.exe,org.eclipse.launchbar.core.descriptorType.default\:More_Examples.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Enums.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Enums.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Pointers_Part2.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Pointers_Part2.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

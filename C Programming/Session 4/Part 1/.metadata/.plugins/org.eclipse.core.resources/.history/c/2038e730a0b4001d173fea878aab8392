@@ -1,0 +1,25 @@
+/*
+ * Unions.c
+ *
+ *  Created on: Feb 25, 2023
+ *      Author: Misara
+ */
+
+
+#include <stdio.h>
+
+int main(void)
+{
+	union Number {
+		char *str;
+		int x;
+		float y;
+	};
+
+	union Number num1;
+	num1.x = 10;
+	printf("x = %d",num1.x);
+
+	num1.y = 50.5;
+	printf("y = %f",num1.y);
+}

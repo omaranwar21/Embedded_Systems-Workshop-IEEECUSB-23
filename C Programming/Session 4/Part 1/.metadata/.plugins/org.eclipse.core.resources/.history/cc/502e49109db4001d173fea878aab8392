@@ -1,0 +1,88 @@
+/*
+ * Struct.c
+ *
+ *  Created on: Feb 25, 2023
+ *      Author: Misara
+ */
+
+
+#include <stdio.h>
+#include <string.h>
+
+int main(void)
+{
+	// defining a struct an taking an object from it
+	struct students
+	{
+		char *firstName;
+		char *lastName;
+		int mathMark;
+		int arabicMark;
+		char *gender;
+	};
+	struct students std;
+
+	struct student
+	{
+		char *firstName;
+		char *lastName;
+		int mathMark;
+		int arabicMark;
+		char *gender;
+	}student1,student2[20];
+
+
+	// Accessing the members of the struct using dot operator.
+
+	student1.firstName = "Misara";
+	student1.lastName = "Ahmed";
+	student1.gender = "Male";
+	student1.mathMark = 10;
+	student1.arabicMark = 20;
+
+
+	printf("First name: %s\n", student1.firstName);
+	printf("Last name: %s\n", student1.lastName);
+	printf("Gender: %s\n", student1.gender);
+	printf("Math mark: %d\n", student1.mathMark);
+	printf("Arabic mark: %d\n", student1.arabicMark);
+
+
+	struct student student3 = {"Omar","Anwar","Male",5,10};
+
+
+
+
+	//struct student student3 = {"Omar","Anwar",5,10,"Male"};
+
+
+	printf("First name: %s\n", student3.firstName);
+	printf("Last name: %s\n", student3.lastName);
+	printf("Gender: %s\n", student3.gender);
+	printf("Math mark: %d\n", student3.mathMark);
+	printf("Arabic mark: %d\n", student3.arabicMark);
+
+	// Note: multiple structures can have the same members names
+
+	struct dog
+	{
+		char *name;
+		char *color;
+	};
+
+	struct cat
+	{
+		char *name;
+		char *color;
+	};
+
+
+	struct student *std_ptr;
+	std_ptr = &student1
+
+
+
+
+
+
+}

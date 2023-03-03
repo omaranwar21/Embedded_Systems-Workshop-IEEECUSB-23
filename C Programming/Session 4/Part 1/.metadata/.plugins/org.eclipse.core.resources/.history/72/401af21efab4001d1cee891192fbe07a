@@ -1,0 +1,116 @@
+
+#include <stdio.h>
+#include <string.h>
+
+int main(void)
+{
+//	// defining a struct an taking an object from it
+//	struct students
+//	{
+//		char *firstName;
+//		char *lastName;
+//		int mathMark;
+//		int arabicMark;
+//		char *gender;
+//	};
+//	struct students std;
+//
+//	struct student
+//	{
+//		char *firstName;
+//		char *lastName;
+//		int mathMark;
+//		int arabicMark;
+//		char *gender;
+//	}student1,student2[20];
+//
+//
+//	// Accessing the members of the struct using dot operator.
+//
+//	student1.firstName = "Misara";
+//	student1.lastName = "Ahmed";
+//	student1.gender = "Male";
+//	student1.mathMark = 10;
+//	student1.arabicMark = 20;
+//
+//
+//	printf("First name: %s\n", student1.firstName);
+//	printf("Last name: %s\n", student1.lastName);
+//	printf("Gender: %s\n", student1.gender);
+//	printf("Math mark: %d\n", student1.mathMark);
+//	printf("Arabic mark: %d\n", student1.arabicMark);
+//
+//
+//	//struct student student3 = {"Omar","Anwar","Male",5,10};
+//
+//
+//
+//
+//	struct student student3 = {"Omar","Anwar",5,10,"Male"};
+//
+//
+//	printf("First name: %s\n", student3.firstName);
+//	printf("Last name: %s\n", student3.lastName);
+//	printf("Gender: %s\n", student3.gender);
+//	printf("Math mark: %d\n", student3.mathMark);
+//	printf("Arabic mark: %d\n", student3.arabicMark);
+//
+//	// Note: multiple structures can have the same members names
+//
+//	struct dog
+//	{
+//		char *name;
+//		char *color;
+//	};
+//
+//	struct cat
+//	{
+//		char *name;
+//		char *color;
+//	};
+//
+//	struct student *std_ptr;
+//	std_ptr = &student1;
+//
+//	(*std_ptr).mathMark = 50;   // dot operator has high priority so use brackets.
+//	printf("Math mark: %d\n", student1.mathMark);
+//
+//
+//
+//	// USE arrow operator instead.
+//
+//	std_ptr -> arabicMark = 100;
+//	printf("Arabic mark: %d\n", student1.arabicMark);
+//
+//
+//
+//
+//	//Nested structures
+//
+//	struct date
+//	{
+//		int day;
+//		int month;
+//		int year;
+//	};
+//
+//	struct employee
+//	{
+//		char *name;
+//		char *gender;
+//		int age;
+//		float salary;
+//		struct date birth;
+//	};
+//
+//
+//	struct employee emp ={"Yasmin","Female",30,5000.0, {1,1,2000} };
+//	struct employee emp1;
+//	emp1.birth.day = 5;
+//	emp1.birth.month = 10;
+//	emp1.birth.year = 2010;
+//
+//	printf("Date = %d/%d/%d \n", emp.birth.day , emp.birth.month , emp.birth.year);
+//	printf("Date = %d/%d/%d \n", emp1.birth.day , emp1.birth.month , emp1.birth.year);
+
+}

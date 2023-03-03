@@ -1,0 +1,26 @@
+/*************************************************************************************************************
+ * Subject: Pointers - Part (2)
+ * Session: Pointers - Part (2), Structures, Unions, and enumerations
+ * Date: 25/02/2023
+ *************************************************************************************************************/
+#include <stdio.h>
+
+int main(void)
+{
+	int var;
+	int *ptr;
+	int **pptr;
+	int *pointer = NULL;
+	var = 500;
+	pointer = &var;
+	ptr = &var;
+	pptr = &ptr;
+
+	printf("var = %d\n", var);
+	printf("pointer = %p \n", pointer);
+	printf("ptr = %p\n", ptr);
+	printf("*ptr = %d\n", *ptr);
+	printf("**pptr = %d\n", **pptr);
+
+
+}

@@ -1,0 +1,33 @@
+/*
+ * Enums.c
+ *
+ *  Created on: Feb 25, 2023
+ *      Author: Misara
+ */
+
+#include <stdio.h>
+
+int main (void)
+{
+	//Example
+	enum day
+	{
+		sun, mon, tue, wed, thu, fri, sat
+	};
+
+	enum day today = wed;
+	printf("Wednesday = %d \n",today);
+	printf("Friday = %d \n",fri);
+
+	// Exercise
+
+	enum DAY
+	{
+		SUN, MON, TUE = 10, WED, THU, FRI, SAT
+	};
+
+	enum DAY TODAY = WED;
+		printf("Wednesday = %d \n",TODAY);
+		printf("Sunday = %d \n",SUN);
+}
+

@@ -1,0 +1,90 @@
+/******************************************************************************
+ *
+ * Session: 4
+ *
+ * Topic: User Defined Data Types
+ *
+ * Date: 22/2/2023
+ *
+ * Author: Rezk
+ *
+ *******************************************************************************/
+#include <stdio.h>
+
+// for example 3
+struct sensors{
+	char temperature;
+	char humidity;
+	char vibration;
+};
+void measure(struct sensors *ptr);
+
+
+void main (void)
+{
+
+	// Example 1
+	struct rezk
+	{
+		char x;
+		int y;
+	};
+	struct rezk ahmed;
+	ahmed.x='A';
+	ahmed.y=2702;
+
+	printf("	%c\n",ahmed.x);
+	printf("	%d",ahmed.y);
+
+
+
+	// Example 2
+	struct emp{
+
+		char age;
+		char hours;
+		unsigned int salary;
+	};
+	struct emp alaa={22,40,5000};
+	printf("age:%d\n",alaa.age);
+	printf("hours:%d\n",alaa.hours);
+	printf("salary:%d $\n",alaa.salary);
+
+
+	// Example 3
+	struct sensors reading1;
+	measure(&reading1);
+	struct sensors reading2=reading1;
+	printf("temperature= %d celsius\n",
+	reading2.temperature);
+	printf("humidity= %d %%\n",
+	reading2.humidity);
+	printf("vibration= %d hz\n",
+	reading2.vibration);
+
+
+
+
+	// Example 4
+	union num{
+		char x;
+		short int y;
+		int z;
+	};
+
+	union num ahmedd;
+
+	printf("%d",sizeof(union num));
+}
+
+// for example 3
+void measure(struct sensors *ptr)
+{
+	ptr->temperature=25; /*temp in Celsius */
+	ptr->humidity=40; /*% humidity*/
+	ptr->vibration=100; /*vibration in hertz*/
+}
+
+
+
+

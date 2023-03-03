@@ -1,0 +1,2699 @@
+23:49:53 **** Rebuild of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:15:7: error: assignment of read-only location '*ptr'
+   15 |  *ptr = 50;        //ERROR
+      |       ^
+23:50:16 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:13:13: warning: variable 'ptr' set but not used [-Wunused-but-set-variable]
+   13 |  const int *ptr = &m;
+      |             ^~~
+gcc -o Pointers_Part2.exe Pointers_Part2.o 
+Info: Nothing to build for Pointers_Part2
+23:50:55 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+gcc -o Pointers_Part2.exe Pointers_Part2.o 
+Info: Nothing to build for Pointers_Part2
+23:51:06 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+gcc -o Pointers_Part2.exe Pointers_Part2.o 
+Info: Nothing to build for Pointers_Part2
+23:52:58 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:16:6: error: assignment of read-only variable 'ptr'
+   16 |  ptr = &n;        //ERROR
+      |      ^
+23:54:04 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:23:7: error: assignment of read-only location '*ptr'
+   23 |  *ptr = 50;
+      |       ^
+23:54:19 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:24:6: error: assignment of read-only variable 'ptr'
+   24 |  ptr = &n;        //ERROR
+      |      ^
+23:54:25 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:24:6: error: assignment of read-only variable 'ptr'
+   24 |  ptr = &n;        //ERROR
+      |      ^
+23:58:27 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:39:6: error: assignment of read-only variable 'ptr'
+   39 |  ptr = &n;        //ERROR
+      |      ^
+23:58:29 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:39:6: error: assignment of read-only variable 'ptr'
+   39 |  ptr = &n;        //ERROR
+      |      ^
+23:59:00 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+23:59:02 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:14:22 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:14:22 **** Rebuild of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:26:9: error: redefinition of 'struct student'
+   26 |  struct student
+      |         ^~~~~~~
+..\Struct.c:15:9: note: originally defined here
+   15 |  struct student
+      |         ^~~~~~~
+..\Struct.c:33:3: warning: unused variable 'student1' [-Wunused-variable]
+   33 |  }student1,student2[20];
+      |   ^~~~~~~~
+..\Struct.c:24:17: warning: unused variable 'std' [-Wunused-variable]
+   24 |  struct student std;
+      |                 ^~~
+01:14:47 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:14:47 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:33:3: warning: unused variable 'student1' [-Wunused-variable]
+   33 |  }student1,student2[20];
+      |   ^~~~~~~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Struct
+01:20:51 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:20:51 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:38:21: error: assignment to expression with array type
+   38 |  student1.firstName = "Misara";
+      |                     ^
+..\Struct.c:39:20: error: assignment to expression with array type
+   39 |  student1.lastName = "Ahmed";
+      |                    ^
+..\Struct.c:42:18: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   42 |  student1.gender = "Male";
+      |                  ^
+..\Struct.c:33:12: warning: unused variable 'student2' [-Wunused-variable]
+   33 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:23:18: warning: unused variable 'std' [-Wunused-variable]
+   23 |  struct students std;
+      |                  ^~~
+01:21:23 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:21:24 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:38:23: warning: character constant too long for its type
+   38 |  student1.firstName = 'Misara';
+      |                       ^~~~~~~~
+..\Struct.c:38:21: error: assignment to expression with array type
+   38 |  student1.firstName = 'Misara';
+      |                     ^
+..\Struct.c:39:20: error: assignment to expression with array type
+   39 |  student1.lastName = "Ahmed";
+      |                    ^
+..\Struct.c:42:18: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   42 |  student1.gender = "Male";
+      |                  ^
+..\Struct.c:33:12: warning: unused variable 'student2' [-Wunused-variable]
+   33 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:23:18: warning: unused variable 'std' [-Wunused-variable]
+   23 |  struct students std;
+      |                  ^~~
+01:22:20 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:22:21 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:38:21: error: assignment to expression with array type
+   38 |  student1.firstName = 'M';
+      |                     ^
+..\Struct.c:39:20: error: assignment to expression with array type
+   39 |  student1.lastName = "Ahmed";
+      |                    ^
+..\Struct.c:42:18: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   42 |  student1.gender = "Male";
+      |                  ^
+..\Struct.c:33:12: warning: unused variable 'student2' [-Wunused-variable]
+   33 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:23:18: warning: unused variable 'std' [-Wunused-variable]
+   23 |  struct students std;
+      |                  ^~~
+01:22:22 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:22:22 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:38:21: error: assignment to expression with array type
+   38 |  student1.firstName = 'M';
+      |                     ^
+..\Struct.c:39:20: error: assignment to expression with array type
+   39 |  student1.lastName = "Ahmed";
+      |                    ^
+..\Struct.c:42:18: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   42 |  student1.gender = "Male";
+      |                  ^
+..\Struct.c:33:12: warning: unused variable 'student2' [-Wunused-variable]
+   33 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:23:18: warning: unused variable 'std' [-Wunused-variable]
+   23 |  struct students std;
+      |                  ^~~
+01:22:44 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:22:44 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:39:20: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   39 |  student1.lastName = "Ahmed";
+      |                    ^
+..\Struct.c:42:18: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   42 |  student1.gender = "Male";
+      |                  ^
+..\Struct.c:45:23: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   45 |  printf("First name: %s", student1.firstName);
+      |                      ~^   ~~~~~~~~~~~~~~~~~~
+      |                       |           |
+      |                       char *      int
+      |                      %d
+..\Struct.c:33:12: warning: unused variable 'student2' [-Wunused-variable]
+   33 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:23:18: warning: unused variable 'std' [-Wunused-variable]
+   23 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Struct
+01:23:07 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:23:08 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:39:20: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   39 |  student1.lastName = "Ahmed";
+      |                    ^
+..\Struct.c:42:18: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   42 |  student1.gender = "Male";
+      |                  ^
+..\Struct.c:33:12: warning: unused variable 'student2' [-Wunused-variable]
+   33 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:23:18: warning: unused variable 'std' [-Wunused-variable]
+   23 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Struct
+01:23:24 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:23:24 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:38:23: warning: character constant too long for its type
+   38 |  student1.firstName = 'Misara';
+      |                       ^~~~~~~~
+..\Struct.c:38:23: warning: overflow in conversion from 'int' to 'char' changes value from '1935766113' to '97' [-Woverflow]
+..\Struct.c:39:20: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   39 |  student1.lastName = "Ahmed";
+      |                    ^
+..\Struct.c:42:18: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   42 |  student1.gender = "Male";
+      |                  ^
+..\Struct.c:33:12: warning: unused variable 'student2' [-Wunused-variable]
+   33 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:23:18: warning: unused variable 'std' [-Wunused-variable]
+   23 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Struct
+01:23:35 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:23:35 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:38:23: warning: character constant too long for its type
+   38 |  student1.firstName = 'Misar';
+      |                       ^~~~~~~
+..\Struct.c:38:23: warning: overflow in conversion from 'int' to 'char' changes value from '1769169266' to '114' [-Woverflow]
+..\Struct.c:39:20: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   39 |  student1.lastName = "Ahmed";
+      |                    ^
+..\Struct.c:42:18: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   42 |  student1.gender = "Male";
+      |                  ^
+..\Struct.c:33:12: warning: unused variable 'student2' [-Wunused-variable]
+   33 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:23:18: warning: unused variable 'std' [-Wunused-variable]
+   23 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Struct
+01:26:42 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:26:42 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:43:18: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   43 |  student1.gender = "Male";
+      |                  ^
+..\Struct.c:45:2: error: unknown type name 'strcop'
+   45 |  strcop
+      |  ^~~~~~
+..\Struct.c:48:9: error: expected declaration specifiers or '...' before string constant
+   48 |  printf("First name: %c", student1.firstName);
+      |         ^~~~~~~~~~~~~~~~
+..\Struct.c:48:27: error: expected declaration specifiers or '...' before 'student1'
+   48 |  printf("First name: %c", student1.firstName);
+      |                           ^~~~~~~~
+..\Struct.c:34:12: warning: unused variable 'student2' [-Wunused-variable]
+   34 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:34:3: warning: variable 'student1' set but not used [-Wunused-but-set-variable]
+   34 |  }student1,student2[20];
+      |   ^~~~~~~~
+..\Struct.c:24:18: warning: unused variable 'std' [-Wunused-variable]
+   24 |  struct students std;
+      |                  ^~~
+01:26:55 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:26:56 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:47:23: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+   47 |  printf("First name: %c", student1.firstName);
+      |                      ~^   ~~~~~~~~~~~~~~~~~~
+      |                       |           |
+      |                       int         char *
+      |                      %s
+..\Struct.c:34:12: warning: unused variable 'student2' [-Wunused-variable]
+   34 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:24:18: warning: unused variable 'std' [-Wunused-variable]
+   24 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Struct
+01:27:04 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:27:05 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:34:12: warning: unused variable 'student2' [-Wunused-variable]
+   34 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:24:18: warning: unused variable 'std' [-Wunused-variable]
+   24 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Struct
+01:29:01 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:29:01 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:34:12: warning: unused variable 'student2' [-Wunused-variable]
+   34 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:24:18: warning: unused variable 'std' [-Wunused-variable]
+   24 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Struct
+01:30:24 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:30:25 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:52:13: error: expected expression before '{' token
+   52 |  student2 = {};
+      |             ^
+..\Struct.c:34:21: warning: unused variable 'student3' [-Wunused-variable]
+   34 |  }student1,student2,student3[20];
+      |                     ^~~~~~~~
+..\Struct.c:34:12: warning: variable 'student2' set but not used [-Wunused-but-set-variable]
+   34 |  }student1,student2,student3[20];
+      |            ^~~~~~~~
+..\Struct.c:24:18: warning: unused variable 'std' [-Wunused-variable]
+   24 |  struct students std;
+      |                  ^~~
+01:31:57 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:31:57 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:52:45: warning: initialization of 'int' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   52 |  struct students student3 = {"Omar","Anwar","Male",5,10};
+      |                                             ^~~~~~
+..\Struct.c:52:45: note: (near initialization for 'student3.mathMark')
+..\Struct.c:56:19: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   56 |  printf("Gender: %s\n", student3.gender);
+      |                  ~^     ~~~~~~~~~~~~~~~
+      |                   |             |
+      |                   char *        int
+      |                  %d
+..\Struct.c:58:30: error: 'student13' undeclared (first use in this function); did you mean 'student3'?
+   58 |  printf("Arabic mark: %d\n", student13.arabicMark);
+      |                              ^~~~~~~~~
+      |                              student3
+..\Struct.c:58:30: note: each undeclared identifier is reported only once for each function it appears in
+..\Struct.c:34:12: warning: unused variable 'student2' [-Wunused-variable]
+   34 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:24:18: warning: unused variable 'std' [-Wunused-variable]
+   24 |  struct students std;
+      |                  ^~~
+01:32:02 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:32:02 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:52:45: warning: initialization of 'int' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   52 |  struct students student3 = {"Omar","Anwar","Male",5,10};
+      |                                             ^~~~~~
+..\Struct.c:52:45: note: (near initialization for 'student3.mathMark')
+..\Struct.c:56:19: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   56 |  printf("Gender: %s\n", student3.gender);
+      |                  ~^     ~~~~~~~~~~~~~~~
+      |                   |             |
+      |                   char *        int
+      |                  %d
+..\Struct.c:34:12: warning: unused variable 'student2' [-Wunused-variable]
+   34 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:24:18: warning: unused variable 'std' [-Wunused-variable]
+   24 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Struct
+Info: Nothing to build for Struct
+01:32:29 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:32:29 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:34:12: warning: unused variable 'student2' [-Wunused-variable]
+   34 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:24:18: warning: unused variable 'std' [-Wunused-variable]
+   24 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Struct
+01:33:16 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:33:16 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:52:44: warning: initialization of 'int' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   52 |  struct student student3 = {"Omar","Anwar","Male",5,10};
+      |                                            ^~~~~~
+..\Struct.c:52:44: note: (near initialization for 'student3.mathMark')
+..\Struct.c:52:53: warning: initialization of 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   52 |  struct student student3 = {"Omar","Anwar","Male",5,10};
+      |                                                     ^~
+..\Struct.c:52:53: note: (near initialization for 'student3.gender')
+..\Struct.c:34:12: warning: unused variable 'student2' [-Wunused-variable]
+   34 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:24:18: warning: unused variable 'std' [-Wunused-variable]
+   24 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Struct
+01:34:18 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:34:18 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:34:12: warning: unused variable 'student2' [-Wunused-variable]
+   34 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:24:18: warning: unused variable 'std' [-Wunused-variable]
+   24 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Struct
+01:34:30 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:34:30 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:34:12: warning: unused variable 'student2' [-Wunused-variable]
+   34 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:24:18: warning: unused variable 'std' [-Wunused-variable]
+   24 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Struct
+01:41:10 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:41:11 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:51:44: warning: initialization of 'int' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   51 |  struct student student3 = {"Omar","Anwar","Male",5,10};
+      |                                            ^~~~~~
+..\Struct.c:51:44: note: (near initialization for 'student3.mathMark')
+..\Struct.c:51:53: warning: initialization of 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   51 |  struct student student3 = {"Omar","Anwar","Male",5,10};
+      |                                                     ^~
+..\Struct.c:51:53: note: (near initialization for 'student3.gender')
+..\Struct.c:52:17: error: redefinition of 'student3'
+   52 |  struct student student3 = {"Omar","Anwar",5,10,"Male"};
+      |                 ^~~~~~~~
+..\Struct.c:51:17: note: previous definition of 'student3' was here
+   51 |  struct student student3 = {"Omar","Anwar","Male",5,10};
+      |                 ^~~~~~~~
+..\Struct.c:32:12: warning: unused variable 'student2' [-Wunused-variable]
+   32 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:23:18: warning: unused variable 'std' [-Wunused-variable]
+   23 |  struct students std;
+      |                  ^~~
+01:41:40 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:41:41 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:51:44: warning: initialization of 'int' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   51 |  struct student student3 = {"Omar","Anwar","Male",5,10};
+      |                                            ^~~~~~
+..\Struct.c:51:44: note: (near initialization for 'student3.mathMark')
+..\Struct.c:51:53: warning: initialization of 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   51 |  struct student student3 = {"Omar","Anwar","Male",5,10};
+      |                                                     ^~
+..\Struct.c:51:53: note: (near initialization for 'student3.gender')
+..\Struct.c:32:12: warning: unused variable 'student2' [-Wunused-variable]
+   32 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:23:18: warning: unused variable 'std' [-Wunused-variable]
+   23 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+01:43:43 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:43:43 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:51:44: warning: initialization of 'int' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   51 |  struct student student3 = {"Omar","Anwar","Male",5,10};
+      |                                            ^~~~~~
+..\Struct.c:51:44: note: (near initialization for 'student3.mathMark')
+..\Struct.c:51:53: warning: initialization of 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   51 |  struct student student3 = {"Omar","Anwar","Male",5,10};
+      |                                                     ^~
+..\Struct.c:51:53: note: (near initialization for 'student3.gender')
+..\Struct.c:32:12: warning: unused variable 'student2' [-Wunused-variable]
+   32 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:23:18: warning: unused variable 'std' [-Wunused-variable]
+   23 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Struct
+01:43:56 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:59:29: error: 'student3' undeclared (first use in this function); did you mean 'student2'?
+   59 |  printf("First name: %s\n", student3.firstName);
+      |                             ^~~~~~~~
+      |                             student2
+..\Struct.c:59:29: note: each undeclared identifier is reported only once for each function it appears in
+..\Struct.c:32:12: warning: unused variable 'student2' [-Wunused-variable]
+   32 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:23:18: warning: unused variable 'std' [-Wunused-variable]
+   23 |  struct students std;
+      |                  ^~~
+01:44:07 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:44:07 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:32:12: warning: unused variable 'student2' [-Wunused-variable]
+   32 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:23:18: warning: unused variable 'std' [-Wunused-variable]
+   23 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Struct
+01:46:05 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:46:06 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:32:12: warning: unused variable 'student2' [-Wunused-variable]
+   32 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:23:18: warning: unused variable 'std' [-Wunused-variable]
+   23 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Struct
+01:48:10 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:48:10 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:32:12: warning: unused variable 'student2' [-Wunused-variable]
+   32 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:23:18: warning: unused variable 'std' [-Wunused-variable]
+   23 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Struct
+01:51:35 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:51:36 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:103:15: error: field 'birth' has incomplete type
+  103 |   struct date birth;
+      |               ^~~~~
+..\Struct.c:32:12: warning: unused variable 'student2' [-Wunused-variable]
+   32 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:23:18: warning: unused variable 'std' [-Wunused-variable]
+   23 |  struct students std;
+      |                  ^~~
+01:51:49 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:51:49 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:32:12: warning: unused variable 'student2' [-Wunused-variable]
+   32 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:23:18: warning: unused variable 'std' [-Wunused-variable]
+   23 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+01:53:49 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:53:49 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:114:62: error: expected '}' before ';' token
+  114 |  struct employee emp ={"Yasmin","Female",30,5000.0,{1,1,2000};
+      |                       ~                                      ^
+..\Struct.c:122:1: error: expected ',' or ';' at end of input
+  122 | }
+      | ^
+..\Struct.c:122:1: error: expected declaration or statement at end of input
+..\Struct.c:114:18: warning: unused variable 'emp' [-Wunused-variable]
+  114 |  struct employee emp ={"Yasmin","Female",30,5000.0,{1,1,2000};
+      |                  ^~~
+..\Struct.c:32:12: warning: unused variable 'student2' [-Wunused-variable]
+   32 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:23:18: warning: unused variable 'std' [-Wunused-variable]
+   23 |  struct students std;
+      |                  ^~~
+01:53:59 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:53:59 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:114:18: warning: unused variable 'emp' [-Wunused-variable]
+  114 |  struct employee emp ={"Yasmin","Female",30,5000.0, {1,1,2000} };
+      |                  ^~~
+..\Struct.c:32:12: warning: unused variable 'student2' [-Wunused-variable]
+   32 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:23:18: warning: unused variable 'std' [-Wunused-variable]
+   23 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+01:55:01 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:55:01 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:116:24: error: 'struct employee' has no member named 'date'
+  116 |  printf("Date = %d",emp.date.day);
+      |                        ^
+..\Struct.c:114:18: warning: variable 'emp' set but not used [-Wunused-but-set-variable]
+  114 |  struct employee emp ={"Yasmin","Female",30,5000.0, {1,1,2000} };
+      |                  ^~~
+..\Struct.c:32:12: warning: unused variable 'student2' [-Wunused-variable]
+   32 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:23:18: warning: unused variable 'std' [-Wunused-variable]
+   23 |  struct students std;
+      |                  ^~~
+01:55:21 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:55:21 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:116:18: warning: format '%d' expects argument of type 'int', but argument 2 has type 'struct date' [-Wformat=]
+  116 |  printf("Date = %d", emp.birth);
+      |                 ~^   ~~~~~~~~~
+      |                  |      |
+      |                  int    struct date
+..\Struct.c:32:12: warning: unused variable 'student2' [-Wunused-variable]
+   32 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:23:18: warning: unused variable 'std' [-Wunused-variable]
+   23 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Struct
+01:55:38 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:55:38 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:32:12: warning: unused variable 'student2' [-Wunused-variable]
+   32 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:23:18: warning: unused variable 'std' [-Wunused-variable]
+   23 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Struct
+01:56:53 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:56:54 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:115:18: warning: variable 'emp1' set but not used [-Wunused-but-set-variable]
+  115 |  struct employee emp1;
+      |                  ^~~~
+..\Struct.c:32:12: warning: unused variable 'student2' [-Wunused-variable]
+   32 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:23:18: warning: unused variable 'std' [-Wunused-variable]
+   23 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+01:57:56 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:57:56 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:115:18: warning: variable 'emp1' set but not used [-Wunused-but-set-variable]
+  115 |  struct employee emp1;
+      |                  ^~~~
+..\Struct.c:32:12: warning: unused variable 'student2' [-Wunused-variable]
+   32 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:23:18: warning: unused variable 'std' [-Wunused-variable]
+   23 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Struct
+01:58:25 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:58:25 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:32:12: warning: unused variable 'student2' [-Wunused-variable]
+   32 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:23:18: warning: unused variable 'std' [-Wunused-variable]
+   23 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Struct
+01:58:37 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+01:58:37 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:32:12: warning: unused variable 'student2' [-Wunused-variable]
+   32 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:23:18: warning: unused variable 'std' [-Wunused-variable]
+   23 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Struct
+02:05:12 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+02:05:13 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:32:12: warning: unused variable 'student2' [-Wunused-variable]
+   32 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:23:18: warning: unused variable 'std' [-Wunused-variable]
+   23 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+02:05:13 **** Rebuild of configuration Debug for project Unions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Unions.o "..\\Unions.c" 
+gcc -o Unions.exe Unions.o 
+Info: Nothing to build for Unions
+02:05:52 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+Info: Nothing to build for Struct
+02:05:52 **** Incremental Build of configuration Debug for project Unions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Unions.o "..\\Unions.c" 
+gcc -o Unions.exe Unions.o 
+Info: Nothing to build for Unions
+02:06:02 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+Info: Nothing to build for Struct
+02:06:03 **** Incremental Build of configuration Debug for project Unions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Unions.o "..\\Unions.c" 
+gcc -o Unions.exe Unions.o 
+Info: Nothing to build for Unions
+02:07:11 **** Incremental Build of configuration Debug for project Unions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Unions.o "..\\Unions.c" 
+gcc -o Unions.exe Unions.o 
+02:07:18 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+Info: Nothing to build for Struct
+02:07:19 **** Incremental Build of configuration Debug for project Unions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Unions.o "..\\Unions.c" 
+gcc -o Unions.exe Unions.o 
+Info: Nothing to build for Unions
+02:07:50 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+Info: Nothing to build for Struct
+02:07:51 **** Incremental Build of configuration Debug for project Unions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Unions.o "..\\Unions.c" 
+gcc -o Unions.exe Unions.o 
+Info: Nothing to build for Unions
+02:08:10 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+Info: Nothing to build for Struct
+02:08:10 **** Incremental Build of configuration Debug for project Unions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Unions.o "..\\Unions.c" 
+gcc -o Unions.exe Unions.o 
+Info: Nothing to build for Unions
+02:08:59 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+Info: Nothing to build for Struct
+02:08:59 **** Incremental Build of configuration Debug for project Unions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Unions.o "..\\Unions.c" 
+gcc -o Unions.exe Unions.o 
+Info: Nothing to build for Unions
+02:10:31 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+Info: Nothing to build for Struct
+02:10:31 **** Incremental Build of configuration Debug for project Unions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Unions.o "..\\Unions.c" 
+gcc -o Unions.exe Unions.o 
+Info: Nothing to build for Unions
+02:16:10 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+Info: Nothing to build for Struct
+02:16:10 **** Incremental Build of configuration Debug for project Unions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Unions.o "..\\Unions.c" 
+gcc -o Unions.exe Unions.o 
+Info: Nothing to build for Unions
+02:16:23 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+Info: Nothing to build for Struct
+02:16:23 **** Incremental Build of configuration Debug for project Unions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Unions.o "..\\Unions.c" 
+gcc -o Unions.exe Unions.o 
+Info: Nothing to build for Unions
+02:21:36 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+Info: Nothing to build for Struct
+02:21:36 **** Incremental Build of configuration Debug for project Unions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Unions.o "..\\Unions.c" 
+gcc -o Unions.exe Unions.o 
+Info: Nothing to build for Unions
+02:26:32 **** Rebuild of configuration Debug for project Enums ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Enums.o "..\\Enums.c" 
+gcc -o Enums.exe Enums.o 
+02:26:33 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+Info: Nothing to build for Struct
+02:26:33 **** Incremental Build of configuration Debug for project Unions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Unions.o "..\\Unions.c" 
+gcc -o Unions.exe Unions.o 
+Info: Nothing to build for Enums
+02:29:11 **** Incremental Build of configuration Debug for project Enums ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Enums.o "..\\Enums.c" 
+gcc -o Enums.exe Enums.o 
+02:29:11 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for Enums
+02:33:56 **** Incremental Build of configuration Debug for project Enums ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Enums.o "..\\Enums.c" 
+..\Enums.c: In function 'main':
+..\Enums.c:45:7: error: nested redefinition of 'enum price'
+   45 |  enum price
+      |       ^~~~~
+..\Enums.c:45:7: error: redeclaration of 'enum price'
+..\Enums.c:40:7: note: originally defined here
+   40 |  enum price
+      |       ^~~~~
+..\Enums.c:47:3: error: redeclaration of enumerator 'cake'
+   47 |   cake = 50 , soda = 50 , bread = 100
+      |   ^~~~
+..\Enums.c:42:3: note: previous definition of 'cake' was here
+   42 |   cake = 50 , soda = 70 , bread = 100
+      |   ^~~~
+..\Enums.c:47:15: error: redeclaration of enumerator 'soda'
+   47 |   cake = 50 , soda = 50 , bread = 100
+      |               ^~~~
+..\Enums.c:42:15: note: previous definition of 'soda' was here
+   42 |   cake = 50 , soda = 70 , bread = 100
+      |               ^~~~
+..\Enums.c:47:27: error: redeclaration of enumerator 'bread'
+   47 |   cake = 50 , soda = 50 , bread = 100
+      |                           ^~~~~
+..\Enums.c:42:27: note: previous definition of 'bread' was here
+   42 |   cake = 50 , soda = 70 , bread = 100
+      |                           ^~~~~
+02:33:57 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+02:38:08 **** Incremental Build of configuration Debug for project Enums ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Enums.o "..\\Enums.c" 
+..\Enums.c: In function 'main':
+..\Enums.c:51:3: error: redeclaration of enumerator 'cake'
+   51 |   cake = 50 , soda = 50 , bread = 100
+      |   ^~~~
+..\Enums.c:44:3: note: previous definition of 'cake' was here
+   44 |   cake = 50 , soda = 70 , bread = 100
+      |   ^~~~
+..\Enums.c:51:15: error: redeclaration of enumerator 'soda'
+   51 |   cake = 50 , soda = 50 , bread = 100
+      |               ^~~~
+..\Enums.c:44:15: note: previous definition of 'soda' was here
+   44 |   cake = 50 , soda = 70 , bread = 100
+      |               ^~~~
+..\Enums.c:51:27: error: redeclaration of enumerator 'bread'
+   51 |   cake = 50 , soda = 50 , bread = 100
+      |                           ^~~~~
+..\Enums.c:44:27: note: previous definition of 'bread' was here
+   44 |   cake = 50 , soda = 70 , bread = 100
+      |                           ^~~~~
+..\Enums.c:57:3: error: redeclaration of enumerator 'cake'
+   57 |   cake = 50 , soda = 50 , bread = 100
+      |   ^~~~
+..\Enums.c:51:3: note: previous definition of 'cake' was here
+   51 |   cake = 50 , soda = 50 , bread = 100
+      |   ^~~~
+..\Enums.c:57:15: error: redeclaration of enumerator 'soda'
+   57 |   cake = 50 , soda = 50 , bread = 100
+      |               ^~~~
+..\Enums.c:51:15: note: previous definition of 'soda' was here
+   51 |   cake = 50 , soda = 50 , bread = 100
+      |               ^~~~
+..\Enums.c:57:27: error: redeclaration of enumerator 'bread'
+   57 |   cake = 50 , soda = 50 , bread = 100
+      |                           ^~~~~
+..\Enums.c:51:27: note: previous definition of 'bread' was here
+   51 |   cake = 50 , soda = 50 , bread = 100
+      |                           ^~~~~
+02:38:08 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+02:38:42 **** Incremental Build of configuration Debug for project Enums ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Enums.o "..\\Enums.c" 
+..\Enums.c: In function 'main':
+..\Enums.c:51:3: error: redeclaration of enumerator 'cake'
+   51 |   cake = 50 , soda = 50
+      |   ^~~~
+..\Enums.c:44:3: note: previous definition of 'cake' was here
+   44 |   cake = 50 , soda = 70 , bread = 100
+      |   ^~~~
+..\Enums.c:51:15: error: redeclaration of enumerator 'soda'
+   51 |   cake = 50 , soda = 50
+      |               ^~~~
+..\Enums.c:44:15: note: previous definition of 'soda' was here
+   44 |   cake = 50 , soda = 70 , bread = 100
+      |               ^~~~
+..\Enums.c:57:3: error: redeclaration of enumerator 'cake'
+   57 |   cake = 50 , soda = 50 , bread = 100
+      |   ^~~~
+..\Enums.c:51:3: note: previous definition of 'cake' was here
+   51 |   cake = 50 , soda = 50
+      |   ^~~~
+..\Enums.c:57:15: error: redeclaration of enumerator 'soda'
+   57 |   cake = 50 , soda = 50 , bread = 100
+      |               ^~~~
+..\Enums.c:51:15: note: previous definition of 'soda' was here
+   51 |   cake = 50 , soda = 50
+      |               ^~~~
+..\Enums.c:57:27: error: redeclaration of enumerator 'bread'
+   57 |   cake = 50 , soda = 50 , bread = 100
+      |                           ^~~~~
+..\Enums.c:44:27: note: previous definition of 'bread' was here
+   44 |   cake = 50 , soda = 70 , bread = 100
+      |                           ^~~~~
+02:38:42 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+02:39:42 **** Incremental Build of configuration Debug for project Enums ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Enums.o "..\\Enums.c" 
+..\Enums.c: In function 'main':
+..\Enums.c:51:27: error: redeclaration of enumerator 'CAKE'
+   51 |   CAKE = 50 , SODA = 70 , CAKE = 100
+      |                           ^~~~
+..\Enums.c:51:3: note: previous definition of 'CAKE' was here
+   51 |   CAKE = 50 , SODA = 70 , CAKE = 100
+      |   ^~~~
+..\Enums.c:57:3: error: redeclaration of enumerator 'cake'
+   57 |   cake = 50 , soda = 50 , bread = 100
+      |   ^~~~
+..\Enums.c:44:3: note: previous definition of 'cake' was here
+   44 |   cake = 50 , soda = 70 , bread = 100
+      |   ^~~~
+..\Enums.c:57:15: error: redeclaration of enumerator 'soda'
+   57 |   cake = 50 , soda = 50 , bread = 100
+      |               ^~~~
+..\Enums.c:44:15: note: previous definition of 'soda' was here
+   44 |   cake = 50 , soda = 70 , bread = 100
+      |               ^~~~
+..\Enums.c:57:27: error: redeclaration of enumerator 'bread'
+   57 |   cake = 50 , soda = 50 , bread = 100
+      |                           ^~~~~
+..\Enums.c:44:27: note: previous definition of 'bread' was here
+   44 |   cake = 50 , soda = 70 , bread = 100
+      |                           ^~~~~
+02:39:43 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+02:40:07 **** Incremental Build of configuration Debug for project Enums ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Enums.o "..\\Enums.c" 
+..\Enums.c: In function 'main':
+..\Enums.c:57:3: error: redeclaration of enumerator 'cake'
+   57 |   cake = 50 , soda = 50 , bread = 100
+      |   ^~~~
+..\Enums.c:44:3: note: previous definition of 'cake' was here
+   44 |   cake = 50 , soda = 70 , bread = 100
+      |   ^~~~
+..\Enums.c:57:15: error: redeclaration of enumerator 'soda'
+   57 |   cake = 50 , soda = 50 , bread = 100
+      |               ^~~~
+..\Enums.c:44:15: note: previous definition of 'soda' was here
+   44 |   cake = 50 , soda = 70 , bread = 100
+      |               ^~~~
+..\Enums.c:57:27: error: redeclaration of enumerator 'bread'
+   57 |   cake = 50 , soda = 50 , bread = 100
+      |                           ^~~~~
+..\Enums.c:44:27: note: previous definition of 'bread' was here
+   44 |   cake = 50 , soda = 70 , bread = 100
+      |                           ^~~~~
+02:40:07 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+02:40:25 **** Incremental Build of configuration Debug for project Enums ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Enums.o "..\\Enums.c" 
+gcc -o Enums.exe Enums.o 
+02:40:25 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for Enums
+07:47:49 **** Rebuild of configuration Debug for project IEEE_Pointers_Part2_Ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o IEEE_Pointers_Part2_Ex1.o "..\\IEEE_Pointers_Part2_Ex1.c" 
+..\IEEE_Pointers_Part2_Ex1.c: In function 'main':
+..\IEEE_Pointers_Part2_Ex1.c:32:8: error: assignment of read-only location '*ptr'
+   32 |  * ptr = 5; // error
+      |        ^
+..\IEEE_Pointers_Part2_Ex1.c:33:6: error: assignment of read-only variable 'ptr'
+   33 |  ptr = &y; // error
+      |      ^
+07:47:50 **** Rebuild of configuration Debug for project IEEE_Pointers_Part2_Ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o IEEE_Pointers_Part2_Ex2.o "..\\IEEE_Pointers_Part2_Ex2.c" 
+gcc -o IEEE_Pointers_Part2_Ex2.exe IEEE_Pointers_Part2_Ex2.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../libmingw32.a(main.o):(.text.startup+0xc0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+07:47:50 **** Rebuild of configuration Debug for project IEEE_Pointers_Part2_Ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o IEEE_Pointers_Part2_Ex3.o "..\\IEEE_Pointers_Part2_Ex3.c" 
+gcc -o IEEE_Pointers_Part2_Ex3.exe IEEE_Pointers_Part2_Ex3.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../libmingw32.a(main.o):(.text.startup+0xc0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+07:47:51 **** Rebuild of configuration Debug for project IEEE_Pointers_Part2_Ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o IEEE_Pointers_Part2_Ex4.o "..\\IEEE_Pointers_Part2_Ex4.c" 
+gcc -o IEEE_Pointers_Part2_Ex4.exe IEEE_Pointers_Part2_Ex4.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../libmingw32.a(main.o):(.text.startup+0xc0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+07:47:51 **** Rebuild of configuration Debug for project IEEE_Pointers_Part2_Ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o IEEE_Pointers_Part2_Ex5.o "..\\IEEE_Pointers_Part2_Ex5.c" 
+gcc -o IEEE_Pointers_Part2_Ex5.exe IEEE_Pointers_Part2_Ex5.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../libmingw32.a(main.o):(.text.startup+0xc0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+07:47:52 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for Enums
+07:48:02 **** Incremental Build of configuration Debug for project IEEE_Pointers_Part2_Ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o IEEE_Pointers_Part2_Ex1.o "..\\IEEE_Pointers_Part2_Ex1.c" 
+..\IEEE_Pointers_Part2_Ex1.c: In function 'main':
+..\IEEE_Pointers_Part2_Ex1.c:30:20: warning: unused variable 'ptr' [-Wunused-variable]
+   30 |  const int * const ptr = &x;
+      |                    ^~~
+..\IEEE_Pointers_Part2_Ex1.c:29:14: warning: unused variable 'y' [-Wunused-variable]
+   29 |  int x = 10, y = 15;
+      |              ^
+gcc -o IEEE_Pointers_Part2_Ex1.exe IEEE_Pointers_Part2_Ex1.o 
+07:48:03 **** Incremental Build of configuration Debug for project IEEE_Pointers_Part2_Ex2 ****
+Info: Internal Builder is used for build
+gcc -o IEEE_Pointers_Part2_Ex2.exe IEEE_Pointers_Part2_Ex2.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../libmingw32.a(main.o):(.text.startup+0xc0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+07:48:03 **** Incremental Build of configuration Debug for project IEEE_Pointers_Part2_Ex3 ****
+Info: Internal Builder is used for build
+gcc -o IEEE_Pointers_Part2_Ex3.exe IEEE_Pointers_Part2_Ex3.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../libmingw32.a(main.o):(.text.startup+0xc0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+07:48:03 **** Incremental Build of configuration Debug for project IEEE_Pointers_Part2_Ex4 ****
+Info: Internal Builder is used for build
+gcc -o IEEE_Pointers_Part2_Ex4.exe IEEE_Pointers_Part2_Ex4.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../libmingw32.a(main.o):(.text.startup+0xc0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+07:48:04 **** Incremental Build of configuration Debug for project IEEE_Pointers_Part2_Ex5 ****
+Info: Internal Builder is used for build
+gcc -o IEEE_Pointers_Part2_Ex5.exe IEEE_Pointers_Part2_Ex5.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../libmingw32.a(main.o):(.text.startup+0xc0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+07:48:04 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for Enums
+Info: Nothing to build for Enums
+07:48:48 **** Incremental Build of configuration Debug for project IEEE_Pointers_Part2_Ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o IEEE_Pointers_Part2_Ex1.o "..\\IEEE_Pointers_Part2_Ex1.c" 
+..\IEEE_Pointers_Part2_Ex1.c: In function 'main':
+..\IEEE_Pointers_Part2_Ex1.c:32:8: error: assignment of read-only location '*ptr'
+   32 |  * ptr = 5; // error
+      |        ^
+..\IEEE_Pointers_Part2_Ex1.c:33:6: error: assignment of read-only variable 'ptr'
+   33 |  ptr = &y; // error
+      |      ^
+07:48:49 **** Incremental Build of configuration Debug for project IEEE_Pointers_Part2_Ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o IEEE_Pointers_Part2_Ex2.o "..\\IEEE_Pointers_Part2_Ex2.c" 
+..\IEEE_Pointers_Part2_Ex2.c: In function 'main':
+..\IEEE_Pointers_Part2_Ex2.c:18:17: warning: dereferencing 'void *' pointer
+   18 |  printf("%c\n", *ptr);             // Error
+      |                 ^~~~
+..\IEEE_Pointers_Part2_Ex2.c:18:17: error: invalid use of void expression
+..\IEEE_Pointers_Part2_Ex2.c:23:17: warning: dereferencing 'void *' pointer
+   23 |  printf("%d\n", *ptr);            // Error
+      |                 ^~~~
+..\IEEE_Pointers_Part2_Ex2.c:23:17: error: invalid use of void expression
+..\IEEE_Pointers_Part2_Ex2.c:28:17: warning: dereferencing 'void *' pointer
+   28 |  printf("%f\n", *ptr);              // Error
+      |                 ^~~~
+..\IEEE_Pointers_Part2_Ex2.c:28:17: error: invalid use of void expression
+07:48:49 **** Incremental Build of configuration Debug for project IEEE_Pointers_Part2_Ex3 ****
+Info: Internal Builder is used for build
+gcc -o IEEE_Pointers_Part2_Ex3.exe IEEE_Pointers_Part2_Ex3.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../libmingw32.a(main.o):(.text.startup+0xc0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+07:48:49 **** Incremental Build of configuration Debug for project IEEE_Pointers_Part2_Ex4 ****
+Info: Internal Builder is used for build
+gcc -o IEEE_Pointers_Part2_Ex4.exe IEEE_Pointers_Part2_Ex4.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../libmingw32.a(main.o):(.text.startup+0xc0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+07:48:49 **** Incremental Build of configuration Debug for project IEEE_Pointers_Part2_Ex5 ****
+Info: Internal Builder is used for build
+gcc -o IEEE_Pointers_Part2_Ex5.exe IEEE_Pointers_Part2_Ex5.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../libmingw32.a(main.o):(.text.startup+0xc0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+07:48:50 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+10:02:41 **** Incremental Build of configuration Debug for project Enums ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Enums.o "..\\Enums.c" 
+gcc -o Enums.exe Enums.o 
+10:02:42 **** Incremental Build of configuration Debug for project IEEE_Pointers_Part2_Ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o IEEE_Pointers_Part2_Ex1.o "..\\IEEE_Pointers_Part2_Ex1.c" 
+..\IEEE_Pointers_Part2_Ex1.c: In function 'main':
+..\IEEE_Pointers_Part2_Ex1.c:32:8: error: assignment of read-only location '*ptr'
+   32 |  * ptr = 5; // error
+      |        ^
+..\IEEE_Pointers_Part2_Ex1.c:33:6: error: assignment of read-only variable 'ptr'
+   33 |  ptr = &y; // error
+      |      ^
+10:02:42 **** Incremental Build of configuration Debug for project IEEE_Pointers_Part2_Ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o IEEE_Pointers_Part2_Ex2.o "..\\IEEE_Pointers_Part2_Ex2.c" 
+..\IEEE_Pointers_Part2_Ex2.c: In function 'main':
+..\IEEE_Pointers_Part2_Ex2.c:18:17: warning: dereferencing 'void *' pointer
+   18 |  printf("%c\n", *ptr);             // Error
+      |                 ^~~~
+..\IEEE_Pointers_Part2_Ex2.c:18:17: error: invalid use of void expression
+..\IEEE_Pointers_Part2_Ex2.c:23:17: warning: dereferencing 'void *' pointer
+   23 |  printf("%d\n", *ptr);            // Error
+      |                 ^~~~
+..\IEEE_Pointers_Part2_Ex2.c:23:17: error: invalid use of void expression
+..\IEEE_Pointers_Part2_Ex2.c:28:17: warning: dereferencing 'void *' pointer
+   28 |  printf("%f\n", *ptr);              // Error
+      |                 ^~~~
+..\IEEE_Pointers_Part2_Ex2.c:28:17: error: invalid use of void expression
+10:02:42 **** Incremental Build of configuration Debug for project IEEE_Pointers_Part2_Ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o IEEE_Pointers_Part2_Ex3.o "..\\IEEE_Pointers_Part2_Ex3.c" 
+gcc -o IEEE_Pointers_Part2_Ex3.exe IEEE_Pointers_Part2_Ex3.o 
+10:02:42 **** Incremental Build of configuration Debug for project IEEE_Pointers_Part2_Ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o IEEE_Pointers_Part2_Ex4.o "..\\IEEE_Pointers_Part2_Ex4.c" 
+gcc -o IEEE_Pointers_Part2_Ex4.exe IEEE_Pointers_Part2_Ex4.o 
+10:02:43 **** Incremental Build of configuration Debug for project IEEE_Pointers_Part2_Ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o IEEE_Pointers_Part2_Ex5.o "..\\IEEE_Pointers_Part2_Ex5.c" 
+..\IEEE_Pointers_Part2_Ex5.c:13:6: warning: return type of 'main' is not 'int' [-Wmain]
+   13 | void main(void)
+      |      ^~~~
+gcc -o IEEE_Pointers_Part2_Ex5.exe IEEE_Pointers_Part2_Ex5.o 
+10:02:43 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+10:02:44 **** Rebuild of configuration Debug for project SimpleCalculator ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o SimpleCalculator.o "..\\SimpleCalculator.c" 
+gcc -o SimpleCalculator.exe SimpleCalculator.o 
+10:02:44 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Unions
+Info: Nothing to build for Enums
+Info: Nothing to build for Enums
+10:03:42 **** Incremental Build of configuration Debug for project IEEE_Pointers_Part2_Ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o IEEE_Pointers_Part2_Ex1.o "..\\IEEE_Pointers_Part2_Ex1.c" 
+..\IEEE_Pointers_Part2_Ex1.c: In function 'main':
+..\IEEE_Pointers_Part2_Ex1.c:30:20: warning: unused variable 'ptr' [-Wunused-variable]
+   30 |  const int * const ptr = &x;
+      |                    ^~~
+..\IEEE_Pointers_Part2_Ex1.c:29:14: warning: unused variable 'y' [-Wunused-variable]
+   29 |  int x = 10, y = 15;
+      |              ^
+gcc -o IEEE_Pointers_Part2_Ex1.exe IEEE_Pointers_Part2_Ex1.o 
+10:03:43 **** Incremental Build of configuration Debug for project IEEE_Pointers_Part2_Ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o IEEE_Pointers_Part2_Ex2.o "..\\IEEE_Pointers_Part2_Ex2.c" 
+..\IEEE_Pointers_Part2_Ex2.c: In function 'main':
+..\IEEE_Pointers_Part2_Ex2.c:11:8: warning: variable 'ptr' set but not used [-Wunused-but-set-variable]
+   11 |  void *ptr;
+      |        ^~~
+gcc -o IEEE_Pointers_Part2_Ex2.exe IEEE_Pointers_Part2_Ex2.o 
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for Enums
+Info: Nothing to build for Enums
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+10:04:17 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Unions
+Info: Nothing to build for Enums
+Info: Nothing to build for Enums
+Info: Nothing to build for Enums
+Info: Nothing to build for Enums
+Info: Nothing to build for Struct
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+10:06:39 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Unions
+Info: Nothing to build for Struct
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+11:05:14 **** Incremental Build of configuration Debug for project IEEE_Pointers_Part2_Ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o IEEE_Pointers_Part2_Ex3.o "..\\IEEE_Pointers_Part2_Ex3.c" 
+gcc -o IEEE_Pointers_Part2_Ex3.exe IEEE_Pointers_Part2_Ex3.o 
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+11:05:14 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:132:37: warning: excess elements in struct initializer
+  132 |  struct misara MISARA = {'A',10,'B',10.5};
+      |                                     ^~~~
+..\Struct.c:132:37: note: (near initialization for 'MISARA')
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Unions
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+11:05:37 **** Incremental Build of configuration Debug for project IEEE_Pointers_Part2_Ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o IEEE_Pointers_Part2_Ex3.o "..\\IEEE_Pointers_Part2_Ex3.c" 
+gcc -o IEEE_Pointers_Part2_Ex3.exe IEEE_Pointers_Part2_Ex3.o 
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+11:06:41 **** Incremental Build of configuration Debug for project IEEE_Pointers_Part2_Ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o IEEE_Pointers_Part2_Ex3.o "..\\IEEE_Pointers_Part2_Ex3.c" 
+gcc -o IEEE_Pointers_Part2_Ex3.exe IEEE_Pointers_Part2_Ex3.o 
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+11:07:38 **** Incremental Build of configuration Debug for project IEEE_Pointers_Part2_Ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o IEEE_Pointers_Part2_Ex3.o "..\\IEEE_Pointers_Part2_Ex3.c" 
+gcc -o IEEE_Pointers_Part2_Ex3.exe IEEE_Pointers_Part2_Ex3.o 
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+11:10:18 **** Incremental Build of configuration Debug for project IEEE_Pointers_Part2_Ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o IEEE_Pointers_Part2_Ex3.o "..\\IEEE_Pointers_Part2_Ex3.c" 
+..\IEEE_Pointers_Part2_Ex3.c: In function 'main':
+..\IEEE_Pointers_Part2_Ex3.c:13:16: warning: initialization of 'int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+   13 |  int pointer = NULL;
+      |                ^~~~
+..\IEEE_Pointers_Part2_Ex3.c:15:10: warning: assignment to 'int' from 'int *' makes integer from pointer without a cast [-Wint-conversion]
+   15 |  pointer = &var;
+      |          ^
+gcc -o IEEE_Pointers_Part2_Ex3.exe IEEE_Pointers_Part2_Ex3.o 
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+11:10:39 **** Incremental Build of configuration Debug for project IEEE_Pointers_Part2_Ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o IEEE_Pointers_Part2_Ex3.o "..\\IEEE_Pointers_Part2_Ex3.c" 
+..\IEEE_Pointers_Part2_Ex3.c: In function 'main':
+..\IEEE_Pointers_Part2_Ex3.c:13:16: warning: initialization of 'int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+   13 |  int pointer = NULL;
+      |                ^~~~
+..\IEEE_Pointers_Part2_Ex3.c:15:10: warning: assignment to 'int' from 'int *' makes integer from pointer without a cast [-Wint-conversion]
+   15 |  pointer = &var;
+      |          ^
+gcc -o IEEE_Pointers_Part2_Ex3.exe IEEE_Pointers_Part2_Ex3.o 
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+11:13:30 **** Incremental Build of configuration Debug for project IEEE_Pointers_Part2_Ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o IEEE_Pointers_Part2_Ex3.o "..\\IEEE_Pointers_Part2_Ex3.c" 
+..\IEEE_Pointers_Part2_Ex3.c: In function 'main':
+..\IEEE_Pointers_Part2_Ex3.c:20:21: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   20 |  printf("pointer = %d\n", pointer);
+      |                    ~^     ~~~~~~~
+      |                     |     |
+      |                     int   int *
+      |                    %n
+gcc -o IEEE_Pointers_Part2_Ex3.exe IEEE_Pointers_Part2_Ex3.o 
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+11:13:49 **** Incremental Build of configuration Debug for project IEEE_Pointers_Part2_Ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o IEEE_Pointers_Part2_Ex3.o "..\\IEEE_Pointers_Part2_Ex3.c" 
+gcc -o IEEE_Pointers_Part2_Ex3.exe IEEE_Pointers_Part2_Ex3.o 
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+12:25:46 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Unions
+Info: Nothing to build for Struct
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+12:49:47 **** Incremental Build of configuration Debug for project IEEE_Pointers_Part2_Ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o IEEE_Pointers_Part2_Ex3.o "..\\IEEE_Pointers_Part2_Ex3.c" 
+gcc -o IEEE_Pointers_Part2_Ex3.exe IEEE_Pointers_Part2_Ex3.o 
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+12:49:48 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:25:12: warning: unused variable 'student2' [-Wunused-variable]
+   25 |  }student1,student2[20];
+      |            ^~~~~~~~
+gcc -o Struct.exe Struct.o 
+12:49:48 **** Incremental Build of configuration Debug for project Unions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Unions.o "..\\Unions.c" 
+gcc -o Unions.exe Unions.o 
+Info: Nothing to build for Struct
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+12:52:45 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:44:44: warning: initialization of 'int' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   44 |  struct student student3 = {"Omar","Anwar","Male",5,10};
+      |                                            ^~~~~~
+..\Struct.c:44:44: note: (near initialization for 'student3.mathMark')
+..\Struct.c:44:53: warning: initialization of 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   44 |  struct student student3 = {"Omar","Anwar","Male",5,10};
+      |                                                     ^~
+..\Struct.c:44:53: note: (near initialization for 'student3.gender')
+..\Struct.c:44:17: warning: unused variable 'student3' [-Wunused-variable]
+   44 |  struct student student3 = {"Omar","Anwar","Male",5,10};
+      |                 ^~~~~~~~
+..\Struct.c:25:12: warning: unused variable 'student2' [-Wunused-variable]
+   25 |  }student1,student2[20];
+      |            ^~~~~~~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Unions
+12:53:00 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:44:44: warning: initialization of 'int' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   44 |  struct student student3 = {"Omar","Anwar","Male",5,10};
+      |                                            ^~~~~~
+..\Struct.c:44:44: note: (near initialization for 'student3.mathMark')
+..\Struct.c:44:53: warning: initialization of 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   44 |  struct student student3 = {"Omar","Anwar","Male",5,10};
+      |                                                     ^~
+..\Struct.c:44:53: note: (near initialization for 'student3.gender')
+..\Struct.c:25:12: warning: unused variable 'student2' [-Wunused-variable]
+   25 |  }student1,student2[20];
+      |            ^~~~~~~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+12:53:17 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:25:12: warning: unused variable 'student2' [-Wunused-variable]
+   25 |  }student1,student2[20];
+      |            ^~~~~~~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Unions
+Info: Nothing to build for Struct
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+12:54:05 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:49:36: warning: initialization of 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   49 |  struct student student3 = {"Omar",10,5,10,"Male"};
+      |                                    ^~
+..\Struct.c:49:36: note: (near initialization for 'student3.lastName')
+..\Struct.c:25:12: warning: unused variable 'student2' [-Wunused-variable]
+   25 |  }student1,student2[20];
+      |            ^~~~~~~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Unions
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+12:54:54 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:49:36: warning: initialization of 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   49 |  struct student student3 = {"Omar",10,5,10,"Male"};
+      |                                    ^~
+..\Struct.c:49:36: note: (near initialization for 'student3.lastName')
+..\Struct.c:25:12: warning: unused variable 'student2' [-Wunused-variable]
+   25 |  }student1,student2[20];
+      |            ^~~~~~~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Unions
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+13:00:47 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:49:36: warning: initialization of 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   49 |  struct student student3 = {"Omar",10,5,10,"Male"};
+      |                                    ^~
+..\Struct.c:49:36: note: (near initialization for 'student3.lastName')
+..\Struct.c:25:12: warning: unused variable 'student2' [-Wunused-variable]
+   25 |  }student1,student2[20];
+      |            ^~~~~~~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Unions
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+13:01:04 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:49:36: warning: initialization of 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   49 |  struct student student3 = {"Omar",10,5,10,"Male"};
+      |                                    ^~
+..\Struct.c:49:36: note: (near initialization for 'student3.lastName')
+..\Struct.c:49:17: warning: unused variable 'student3' [-Wunused-variable]
+   49 |  struct student student3 = {"Omar",10,5,10,"Male"};
+      |                 ^~~~~~~~
+..\Struct.c:25:12: warning: unused variable 'student2' [-Wunused-variable]
+   25 |  }student1,student2[20];
+      |            ^~~~~~~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Unions
+Info: Nothing to build for Struct
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+13:03:42 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:49:36: warning: initialization of 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   49 |  struct student student3 = {"Omar",10,5,10,"Male"};
+      |                                    ^~
+..\Struct.c:49:36: note: (near initialization for 'student3.lastName')
+..\Struct.c:49:17: warning: unused variable 'student3' [-Wunused-variable]
+   49 |  struct student student3 = {"Omar",10,5,10,"Male"};
+      |                 ^~~~~~~~
+..\Struct.c:25:12: warning: unused variable 'student2' [-Wunused-variable]
+   25 |  }student1,student2[20];
+      |            ^~~~~~~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Unions
+Info: Nothing to build for Struct
+Info: Nothing to build for Struct
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+13:05:42 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:49:36: warning: initialization of 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   49 |  struct student student3 = {"Omar",10,5,10,"Male"};
+      |                                    ^~
+..\Struct.c:49:36: note: (near initialization for 'student3.lastName')
+..\Struct.c:49:17: warning: unused variable 'student3' [-Wunused-variable]
+   49 |  struct student student3 = {"Omar",10,5,10,"Male"};
+      |                 ^~~~~~~~
+..\Struct.c:25:12: warning: unused variable 'student2' [-Wunused-variable]
+   25 |  }student1,student2[20];
+      |            ^~~~~~~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Unions
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+13:09:13 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:49:36: warning: initialization of 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   49 |  struct student student3 = {"Omar",10,5,10,"Male"};
+      |                                    ^~
+..\Struct.c:49:36: note: (near initialization for 'student3.lastName')
+..\Struct.c:49:17: warning: unused variable 'student3' [-Wunused-variable]
+   49 |  struct student student3 = {"Omar",10,5,10,"Male"};
+      |                 ^~~~~~~~
+..\Struct.c:25:12: warning: unused variable 'student2' [-Wunused-variable]
+   25 |  }student1,student2[20];
+      |            ^~~~~~~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Unions
+Info: Nothing to build for Struct
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for Struct
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+13:13:17 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:49:36: warning: initialization of 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   49 |  struct student student3 = {"Omar",10,5,10,"Male"};
+      |                                    ^~
+..\Struct.c:49:36: note: (near initialization for 'student3.lastName')
+..\Struct.c:49:17: warning: unused variable 'student3' [-Wunused-variable]
+   49 |  struct student student3 = {"Omar",10,5,10,"Male"};
+      |                 ^~~~~~~~
+..\Struct.c:25:12: warning: unused variable 'student2' [-Wunused-variable]
+   25 |  }student1,student2[20];
+      |            ^~~~~~~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Unions
+Info: Nothing to build for Struct
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+13:32:16 **** Incremental Build of configuration Debug for project Unions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Unions.o "..\\Unions.c" 
+gcc -o Unions.exe Unions.o 
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for Unions
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+13:34:35 **** Incremental Build of configuration Debug for project Unions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Unions.o "..\\Unions.c" 
+gcc -o Unions.exe Unions.o 
+Info: Nothing to build for Unions
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+13:34:48 **** Incremental Build of configuration Debug for project Unions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Unions.o "..\\Unions.c" 
+gcc -o Unions.exe Unions.o 
+Info: Nothing to build for Unions
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+13:35:34 **** Incremental Build of configuration Debug for project Unions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Unions.o "..\\Unions.c" 
+gcc -o Unions.exe Unions.o 
+Info: Nothing to build for Unions
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+13:38:44 **** Incremental Build of configuration Debug for project Unions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Unions.o "..\\Unions.c" 
+gcc -o Unions.exe Unions.o 
+Info: Nothing to build for Unions
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for Unions
+Info: Nothing to build for Enums
+13:49:17 **** Incremental Build of configuration Debug for project Enums ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Enums.o "..\\Enums.c" 
+..\Enums.c: In function 'main':
+..\Enums.c:45:27: error: redeclaration of enumerator 'CAKE'
+   45 |   CAKE = 50 , SODA = 70 , CAKE = 100
+      |                           ^~~~
+..\Enums.c:45:3: note: previous definition of 'CAKE' was here
+   45 |   CAKE = 50 , SODA = 70 , CAKE = 100
+      |   ^~~~
+..\Enums.c:49:7: error: nested redefinition of 'enum myprice'
+   49 |  enum myprice
+      |       ^~~~~~~
+..\Enums.c:49:7: error: redeclaration of 'enum myprice'
+..\Enums.c:43:7: note: originally defined here
+   43 |  enum myprice
+      |       ^~~~~~~
+..\Enums.c:51:3: error: redeclaration of enumerator 'CAKE'
+   51 |   CAKE = 50 , SODA = 50 , BREAD = 100
+      |   ^~~~
+..\Enums.c:45:27: note: previous definition of 'CAKE' was here
+   45 |   CAKE = 50 , SODA = 70 , CAKE = 100
+      |                           ^~~~
+..\Enums.c:51:15: error: redeclaration of enumerator 'SODA'
+   51 |   CAKE = 50 , SODA = 50 , BREAD = 100
+      |               ^~~~
+..\Enums.c:45:15: note: previous definition of 'SODA' was here
+   45 |   CAKE = 50 , SODA = 70 , CAKE = 100
+      |               ^~~~
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+15:14:45 **** Incremental Build of configuration Debug for project Enums ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Enums.o "..\\Enums.c" 
+gcc -o Enums.exe Enums.o 
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+15:14:47 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:44:44: warning: initialization of 'int' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   44 |  struct student student3 = {"Omar","Anwar","Male",5,10};
+      |                                            ^~~~~~
+..\Struct.c:44:44: note: (near initialization for 'student3.mathMark')
+..\Struct.c:44:53: warning: initialization of 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   44 |  struct student student3 = {"Omar","Anwar","Male",5,10};
+      |                                                     ^~
+..\Struct.c:44:53: note: (near initialization for 'student3.gender')
+..\Struct.c:49:17: error: redefinition of 'student3'
+   49 |  struct student student3 = {"Omar",10,5,10,"Male"};
+      |                 ^~~~~~~~
+..\Struct.c:44:17: note: previous definition of 'student3' was here
+   44 |  struct student student3 = {"Omar","Anwar","Male",5,10};
+      |                 ^~~~~~~~
+..\Struct.c:49:36: warning: initialization of 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   49 |  struct student student3 = {"Omar",10,5,10,"Male"};
+      |                                    ^~
+..\Struct.c:49:36: note: (near initialization for 'student3.lastName')
+..\Struct.c:25:12: warning: unused variable 'student2' [-Wunused-variable]
+   25 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:16:18: warning: unused variable 'std' [-Wunused-variable]
+   16 |  struct students std;
+      |                  ^~~
+Info: Nothing to build for Unions
+15:14:51 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:44:44: warning: initialization of 'int' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   44 |  struct student student3 = {"Omar","Anwar","Male",5,10};
+      |                                            ^~~~~~
+..\Struct.c:44:44: note: (near initialization for 'student3.mathMark')
+..\Struct.c:44:53: warning: initialization of 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   44 |  struct student student3 = {"Omar","Anwar","Male",5,10};
+      |                                                     ^~
+..\Struct.c:44:53: note: (near initialization for 'student3.gender')
+..\Struct.c:49:17: error: redefinition of 'student3'
+   49 |  struct student student3 = {"Omar",10,5,10,"Male"};
+      |                 ^~~~~~~~
+..\Struct.c:44:17: note: previous definition of 'student3' was here
+   44 |  struct student student3 = {"Omar","Anwar","Male",5,10};
+      |                 ^~~~~~~~
+..\Struct.c:49:36: warning: initialization of 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   49 |  struct student student3 = {"Omar",10,5,10,"Male"};
+      |                                    ^~
+..\Struct.c:49:36: note: (near initialization for 'student3.lastName')
+..\Struct.c:25:12: warning: unused variable 'student2' [-Wunused-variable]
+   25 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:16:18: warning: unused variable 'std' [-Wunused-variable]
+   16 |  struct students std;
+      |                  ^~~
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+15:15:28 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:44:44: warning: initialization of 'int' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   44 |  struct student student3 = {"Omar","Anwar","Male",5,10};
+      |                                            ^~~~~~
+..\Struct.c:44:44: note: (near initialization for 'student3.mathMark')
+..\Struct.c:44:53: warning: initialization of 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   44 |  struct student student3 = {"Omar","Anwar","Male",5,10};
+      |                                                     ^~
+..\Struct.c:44:53: note: (near initialization for 'student3.gender')
+..\Struct.c:25:12: warning: unused variable 'student2' [-Wunused-variable]
+   25 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:16:18: warning: unused variable 'std' [-Wunused-variable]
+   16 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Unions
+Info: Nothing to build for Struct
+Info: Nothing to build for Struct
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+15:16:43 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:25:12: warning: unused variable 'student2' [-Wunused-variable]
+   25 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:16:18: warning: unused variable 'std' [-Wunused-variable]
+   16 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Unions
+Info: Nothing to build for Struct
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+15:21:43 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:25:12: warning: unused variable 'student2' [-Wunused-variable]
+   25 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:16:18: warning: unused variable 'std' [-Wunused-variable]
+   16 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+Info: Nothing to build for Unions
+Info: Nothing to build for Struct
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+15:28:06 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:30:12: warning: unused variable 'student2' [-Wunused-variable]
+   30 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:16:18: warning: unused variable 'std' [-Wunused-variable]
+   16 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+15:28:07 **** Incremental Build of configuration Debug for project Unions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Unions.o "..\\Unions.c" 
+gcc -o Unions.exe Unions.o 
+Info: Nothing to build for Unions
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+15:29:05 **** Incremental Build of configuration Debug for project Unions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Unions.o "..\\Unions.c" 
+gcc -o Unions.exe Unions.o 
+Info: Nothing to build for Enums
+15:48:07 **** Incremental Build of configuration Debug for project Enums ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Enums.o "..\\Enums.c" 
+gcc -o Enums.exe Enums.o 
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+15:48:09 **** Rebuild of configuration Debug for project More_Examples ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o More_Examples.o "..\\More_Examples.c" 
+..\More_Examples.c:14:6: warning: return type of 'main' is not 'int' [-Wmain]
+   14 | void main (void)
+      |      ^~~~
+..\More_Examples.c: In function 'main':
+..\More_Examples.c:67:7: error: static declaration of 'measure' follows non-static declaration
+   67 |  void measure(struct sensors *ptr)
+      |       ^~~~~~~
+..\More_Examples.c:53:7: note: previous declaration of 'measure' was here
+   53 |  void measure(struct sensors *ptr);
+      |       ^~~~~~~
+..\More_Examples.c:81:12: warning: unused variable 'ahmedd' [-Wunused-variable]
+   81 |  union num ahmedd;
+      |            ^~~~~~
+At top level:
+..\More_Examples.c:67:7: warning: 'measure' defined but not used [-Wunused-function]
+   67 |  void measure(struct sensors *ptr)
+      |       ^~~~~~~
+Info: Nothing to build for SimpleCalculator
+15:48:10 **** Incremental Build of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Struct.o "..\\Struct.c" 
+..\Struct.c: In function 'main':
+..\Struct.c:40:12: warning: unused variable 'student2' [-Wunused-variable]
+   40 |  }student1,student2[20];
+      |            ^~~~~~~~
+..\Struct.c:26:18: warning: unused variable 'std' [-Wunused-variable]
+   26 |  struct students std;
+      |                  ^~~
+gcc -o Struct.exe Struct.o 
+15:48:10 **** Incremental Build of configuration Debug for project Unions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Unions.o "..\\Unions.c" 
+gcc -o Unions.exe Unions.o 
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+15:48:54 **** Incremental Build of configuration Debug for project More_Examples ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o More_Examples.o "..\\More_Examples.c" 
+..\More_Examples.c:14:21: warning: 'struct sensors' declared inside parameter list will not be visible outside of this definition or declaration
+   14 | void measure(struct sensors *ptr);
+      |                     ^~~~~~~
+..\More_Examples.c:16:6: warning: return type of 'main' is not 'int' [-Wmain]
+   16 | void main (void)
+      |      ^~~~
+..\More_Examples.c: In function 'main':
+..\More_Examples.c:59:10: warning: passing argument 1 of 'measure' from incompatible pointer type [-Wincompatible-pointer-types]
+   59 |  measure(&reading1);
+      |          ^~~~~~~~~
+      |          |
+      |          struct sensors *
+..\More_Examples.c:14:30: note: expected 'struct sensors *' but argument is of type 'struct sensors *'
+   14 | void measure(struct sensors *ptr);
+      |              ~~~~~~~~~~~~~~~~^~~
+..\More_Examples.c:78:12: warning: unused variable 'ahmedd' [-Wunused-variable]
+   78 |  union num ahmedd;
+      |            ^~~~~~
+..\More_Examples.c: At top level:
+..\More_Examples.c:83:21: warning: 'struct sensors' declared inside parameter list will not be visible outside of this definition or declaration
+   83 | void measure(struct sensors *ptr)
+      |                     ^~~~~~~
+..\More_Examples.c:83:6: error: conflicting types for 'measure'
+   83 | void measure(struct sensors *ptr)
+      |      ^~~~~~~
+..\More_Examples.c:14:6: note: previous declaration of 'measure' was here
+   14 | void measure(struct sensors *ptr);
+      |      ^~~~~~~
+..\More_Examples.c: In function 'measure':
+..\More_Examples.c:85:5: error: dereferencing pointer to incomplete type 'struct sensors'
+   85 |  ptr->temperature=25; /*temp in Celsius */
+      |     ^~
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+15:49:12 **** Incremental Build of configuration Debug for project More_Examples ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o More_Examples.o "..\\More_Examples.c" 
+..\More_Examples.c:14:21: warning: 'struct sensors' declared inside parameter list will not be visible outside of this definition or declaration
+   14 | void measure(struct sensors *ptr);
+      |                     ^~~~~~~
+..\More_Examples.c:16:6: warning: return type of 'main' is not 'int' [-Wmain]
+   16 | void main (void)
+      |      ^~~~
+..\More_Examples.c: In function 'main':
+..\More_Examples.c:59:10: warning: passing argument 1 of 'measure' from incompatible pointer type [-Wincompatible-pointer-types]
+   59 |  measure(&reading1);
+      |          ^~~~~~~~~
+      |          |
+      |          struct sensors *
+..\More_Examples.c:14:30: note: expected 'struct sensors *' but argument is of type 'struct sensors *'
+   14 | void measure(struct sensors *ptr);
+      |              ~~~~~~~~~~~~~~~~^~~
+..\More_Examples.c:78:12: warning: unused variable 'ahmedd' [-Wunused-variable]
+   78 |  union num ahmedd;
+      |            ^~~~~~
+..\More_Examples.c: At top level:
+..\More_Examples.c:83:21: warning: 'struct sensors' declared inside parameter list will not be visible outside of this definition or declaration
+   83 | void measure(struct sensors *ptr)
+      |                     ^~~~~~~
+..\More_Examples.c:83:6: error: conflicting types for 'measure'
+   83 | void measure(struct sensors *ptr)
+      |      ^~~~~~~
+..\More_Examples.c:14:6: note: previous declaration of 'measure' was here
+   14 | void measure(struct sensors *ptr);
+      |      ^~~~~~~
+..\More_Examples.c: In function 'measure':
+..\More_Examples.c:85:5: error: dereferencing pointer to incomplete type 'struct sensors'
+   85 |  ptr->temperature=25; /*temp in Celsius */
+      |     ^~
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+15:49:15 **** Incremental Build of configuration Debug for project More_Examples ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o More_Examples.o "..\\More_Examples.c" 
+..\More_Examples.c:14:6: warning: return type of 'main' is not 'int' [-Wmain]
+   14 | void main (void)
+      |      ^~~~
+..\More_Examples.c: In function 'main':
+..\More_Examples.c:76:12: warning: unused variable 'ahmedd' [-Wunused-variable]
+   76 |  union num ahmedd;
+      |            ^~~~~~
+gcc -o More_Examples.exe More_Examples.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: More_Examples.o: in function `main':
+C:\Partitiion\IEEE CUSB 23\Embedded\Session_4\More_Examples\Debug/../More_Examples.c:57: undefined reference to `measure'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+15:51:34 **** Incremental Build of configuration Debug for project More_Examples ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o More_Examples.o "..\\More_Examples.c" 
+..\More_Examples.c:90:6: warning: return type of 'main' is not 'int' [-Wmain]
+   90 | void main (void)
+      |      ^~~~
+gcc -o More_Examples.exe More_Examples.o 
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for More_Examples
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+15:53:27 **** Incremental Build of configuration Debug for project More_Examples ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o More_Examples.o "..\\More_Examples.c" 
+..\More_Examples.c:23:6: warning: return type of 'main' is not 'int' [-Wmain]
+   23 | void main (void)
+      |      ^~~~
+..\More_Examples.c: In function 'main':
+..\More_Examples.c:75:12: warning: unused variable 'ahmedd' [-Wunused-variable]
+   75 |  union num ahmedd;
+      |            ^~~~~~
+gcc -o More_Examples.exe More_Examples.o 
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for More_Examples
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+15:54:02 **** Incremental Build of configuration Debug for project More_Examples ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o More_Examples.o "..\\More_Examples.c" 
+..\More_Examples.c:23:6: warning: return type of 'main' is not 'int' [-Wmain]
+   23 | void main (void)
+      |      ^~~~
+..\More_Examples.c: In function 'main':
+..\More_Examples.c:75:12: warning: unused variable 'ahmedd' [-Wunused-variable]
+   75 |  union num ahmedd;
+      |            ^~~~~~
+gcc -o More_Examples.exe More_Examples.o 
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for More_Examples
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+15:54:47 **** Incremental Build of configuration Debug for project More_Examples ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o More_Examples.o "..\\More_Examples.c" 
+..\More_Examples.c:23:6: warning: return type of 'main' is not 'int' [-Wmain]
+   23 | void main (void)
+      |      ^~~~
+..\More_Examples.c: In function 'main':
+..\More_Examples.c:60:23: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+   60 |  printf("humidity= %d%\n",
+      |                       ^~
+..\More_Examples.c:75:12: warning: unused variable 'ahmedd' [-Wunused-variable]
+   75 |  union num ahmedd;
+      |            ^~~~~~
+gcc -o More_Examples.exe More_Examples.o 
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for More_Examples
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+15:55:01 **** Incremental Build of configuration Debug for project More_Examples ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o More_Examples.o "..\\More_Examples.c" 
+..\More_Examples.c:23:6: warning: return type of 'main' is not 'int' [-Wmain]
+   23 | void main (void)
+      |      ^~~~
+..\More_Examples.c: In function 'main':
+..\More_Examples.c:60:24: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+   60 |  printf("humidity= %d %\n",
+      |                        ^~
+..\More_Examples.c:75:12: warning: unused variable 'ahmedd' [-Wunused-variable]
+   75 |  union num ahmedd;
+      |            ^~~~~~
+gcc -o More_Examples.exe More_Examples.o 
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for More_Examples
+Info: Nothing to build for More_Examples
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+15:55:17 **** Incremental Build of configuration Debug for project More_Examples ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o More_Examples.o "..\\More_Examples.c" 
+..\More_Examples.c:23:6: warning: return type of 'main' is not 'int' [-Wmain]
+   23 | void main (void)
+      |      ^~~~
+..\More_Examples.c: In function 'main':
+..\More_Examples.c:75:12: warning: unused variable 'ahmedd' [-Wunused-variable]
+   75 |  union num ahmedd;
+      |            ^~~~~~
+gcc -o More_Examples.exe More_Examples.o 
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions
+Info: Nothing to build for More_Examples
+Info: Nothing to build for Enums
+Info: Nothing to build for IEEE_Pointers_Part2_Ex1
+Info: Nothing to build for IEEE_Pointers_Part2_Ex2
+Info: Nothing to build for IEEE_Pointers_Part2_Ex3
+Info: Nothing to build for IEEE_Pointers_Part2_Ex4
+Info: Nothing to build for IEEE_Pointers_Part2_Ex5
+Info: Nothing to build for More_Examples
+Info: Nothing to build for SimpleCalculator
+Info: Nothing to build for Struct
+Info: Nothing to build for Unions

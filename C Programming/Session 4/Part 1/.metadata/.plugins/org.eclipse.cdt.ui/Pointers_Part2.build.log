@@ -1,0 +1,10 @@
+10:02:43 **** Incremental Build of configuration Debug for project Pointers_Part2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Pointers_Part2.o "..\\Pointers_Part2.c" 
+..\Pointers_Part2.c: In function 'main':
+..\Pointers_Part2.c:47:7: error: assignment of read-only location '*ptr'
+   47 |  *ptr = 50;        //ERROR
+      |       ^
+
+10:02:43 Build Failed. 1 errors, 0 warnings. (took 164ms)
+

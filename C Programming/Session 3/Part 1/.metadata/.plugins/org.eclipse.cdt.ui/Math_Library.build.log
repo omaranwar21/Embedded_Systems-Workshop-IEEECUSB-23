@@ -1,0 +1,7 @@
+٢١:٠٠:٣٣ **** Incremental Build of configuration Debug for project Math_Library ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Math_Library.o" "..\\src\\Math_Library.c" 
+gcc -o Math_Library.exe "src\\Math_Library.o" 
+
+٢١:٠٠:٣٣ Build Finished. 0 errors, 0 warnings. (took 395ms)
+
