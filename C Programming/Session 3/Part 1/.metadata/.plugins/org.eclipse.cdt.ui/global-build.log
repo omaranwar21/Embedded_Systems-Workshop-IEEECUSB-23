@@ -11,3 +11,56 @@ collect2.exe: error: ld returned 1 exit status
 Info: Internal Builder is used for build
 gcc -o Fun_min.exe main.o 
 Info: Nothing to build for Fun_min
+17:04:53 **** Rebuild of configuration Debug for project Fun_min ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Fun_min.exe main.o 
+17:04:54 **** Rebuild of configuration Debug for project IEEE_Pointers_Part1_Ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o IEEE_Pointers_Part1_Ex1.o "..\\IEEE_Pointers_Part1_Ex1.c" 
+gcc -o IEEE_Pointers_Part1_Ex1.exe IEEE_Pointers_Part1_Ex1.o 
+17:04:55 **** Rebuild of configuration Debug for project Sum_Array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Sum_Array.o" "..\\src\\Sum_Array.c" 
+gcc -o Sum_Array.exe "src\\Sum_Array.o" 
+17:04:56 **** Rebuild of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.c" 
+gcc -o Test.exe "src\\Test.o" 
+Info: Nothing to build for Fun_min
+Info: Nothing to build for IEEE_Pointers_Part1_Ex1
+Info: Nothing to build for Sum_Array
+Info: Nothing to build for Test
+Info: Nothing to build for Max_Of_Array
+Info: Nothing to build for IEEE_Pointers_Part1_Ex1
+Info: Nothing to build for Display_Stars
+Info: Nothing to build for Fun_Even_or_Odd
+Info: Nothing to build for Fun_min
+Info: Nothing to build for IEEE_Pointers_Part1_Ex1
+17:09:27 **** Rebuild of configuration Debug for project IEEE_pointers_Part1_Ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o IEEE_pointers_Part1_Ex2.o "..\\IEEE_pointers_Part1_Ex2.c" 
+gcc -o IEEE_pointers_Part1_Ex2.exe IEEE_pointers_Part1_Ex2.o 
+Info: Nothing to build for Math_Library
+Info: Nothing to build for Max_Of_Array
+Info: Nothing to build for Sum_Array
+Info: Nothing to build for Test
+Info: Nothing to build for IEEE_pointers_Part1_Ex2
+17:11:06 **** Rebuild of configuration Debug for project IEEE_Pointers_Part1_Ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o IEEE_Pointers_Part1_Ex2.o "..\\IEEE_Pointers_Part1_Ex2.c" 
+gcc -o IEEE_Pointers_Part1_Ex2.exe IEEE_Pointers_Part1_Ex2.o 
+Info: Nothing to build for Display_Stars
+Info: Nothing to build for Fun_Even_or_Odd
+Info: Nothing to build for Fun_min
+Info: Nothing to build for IEEE_Pointers_Part1_Ex1
+Info: Nothing to build for IEEE_Pointers_Part1_Ex2
+17:11:49 **** Rebuild of configuration Debug for project IEEE_Pointers_Part1_Ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o IEEE_Pointers_Part1_Ex3.o "..\\IEEE_Pointers_Part1_Ex3.c" 
+gcc -o IEEE_Pointers_Part1_Ex3.exe IEEE_Pointers_Part1_Ex3.o 
+Info: Nothing to build for Math_Library
+Info: Nothing to build for Max_Of_Array
+Info: Nothing to build for Sum_Array
+Info: Nothing to build for Test
+Info: Nothing to build for IEEE_Pointers_Part1_Ex3
