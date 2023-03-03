@@ -4,7 +4,7 @@
  Author      : Mohamed Ayman
  Version     :
  Copyright   : Your copyright notice
- Description : Example
+ Description : An Exercise Code to test your skill on tracing 
  ============================================================================
  */
 
@@ -16,7 +16,7 @@ int main(void) {
 	setvbuf(stdout, NULL, _IONBF, 0);
 	setvbuf(stderr, NULL, _IONBF, 0);
 
-	/*	int x, y, z;
+		int x, y, z;
 
 	printf("Please enter Three numbers: ");
 
@@ -42,36 +42,8 @@ int main(void) {
 
 	}
 
-	printf("\n\nThe numbers are %d %d %d",x,y,z);*/
+	printf("\n\nThe numbers are %d %d %d",x,y,z);
 
-
-
-	int a = 5;
-	int b = 20;
-	if ( a && b )
-	{
-		printf("Line 1 Condition is true\n" );
-	}
-	if (a || b )
-	{
-		printf("Line 2 Condition is true\n");
-	}
-	/* lets change the value of a and b */
-	a = 0;
-	b = 10;
-	if ( a && b )
-	{
-		printf("Line 3 - Condition is true\n" );
-	} else
-	{
-		printf("Line 3 Condition is not true\n");
-	}
-
-	if ( !( a && b ) )
-	{
-
-		printf("Line 4 Condition is true\n");
-	}
 
 	return 0;
 }
